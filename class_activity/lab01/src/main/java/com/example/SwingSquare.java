@@ -10,7 +10,7 @@ public class SwingSquare extends JPanel {
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        
+
         // Draw a static square that is empty/hollow inside
         int size = 200;
         int x = (getWidth() - size) / 2;
